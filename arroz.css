@@ -1,0 +1,118 @@
+#Comidas1{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#Comidas1 div{
+    padding: 5px 30px;
+}
+#Comidas1 div h3{
+    color: black;
+    margin: 0%;
+}
+#Comidas1 a{
+    text-decoration: none;
+}
+
+
+#Comidas2{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#Comidas2 div{
+    padding: 5px 30px;
+}
+#Comidas2 div h3{
+    color: black;
+    margin: 0px;
+}
+#Comidas2 a{
+    text-decoration: none;
+}
+
+
+#Comidas3{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#Comidas3 div{
+    padding: 5px 30px;
+}
+#Comidas3 div h3{
+    color: black;
+    margin: 0px;
+}
+#Comidas3 a{
+    text-decoration: none;
+}
+
+
+#Letras{
+    background-color: #96aef0;
+    color: white;
+    display:flex;
+}
+
+#Letras div p{
+    width: 300px;
+    height: 50%;
+
+    
+}
+
+.Hey1 p{
+    padding: 5px 90px;
+    font-size: 17px;
+}
+
+.Hey2 p{
+    padding: 5px 0px;
+    font-size: 17px;
+
+}
+
+.Hey3 p{
+    padding: 5px 60px;
+    font-size: 17px;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px) {
+    #Comidas{
+        flex-direction: column;
+    }
+    .Hey1 p{
+
+        flex-direction: column;
+    }
+    #Comidas1{
+        flex-direction: column;
+    }
+    #Comidas2{
+        flex-direction: column;
+    }
+    #Comidas3{
+        flex-direction: column;
+    }
+
+    #Letras div p{
+        padding: 0px 26%;
+        width: 50%;
+        flex-direction: column;
+    }
+
+    #Letras{
+        flex-direction: column;
+    }    
+}
+
+
+
+footer{
+   text-align: center;
+}
